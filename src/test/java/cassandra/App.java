@@ -7,8 +7,7 @@ import com.datastax.driver.mapping.MappingManager;
 
 public class App {
 	public static void main(String[] args) {
-		Cluster cluster = Cluster.builder().addContactPoints("172.17.2.10")
-				.addContactPoints("172.17.2.11").withPort(9042).build();
+		Cluster cluster = Cluster.builder().addContactPoints("127.0.0.1").withPort(9042).build();
 		Session session = cluster.connect();
 
 		// String cqlStatement =
