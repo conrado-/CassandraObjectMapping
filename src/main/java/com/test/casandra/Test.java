@@ -1,4 +1,4 @@
-package cassandra;
+package com.test.casandra;
 
 import java.io.IOException;
 

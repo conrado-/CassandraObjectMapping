@@ -1,4 +1,4 @@
-package cassandra;
+package com.test.casandra.mapper;
 
 import com.datastax.driver.mapping.annotations.PartitionKey;
 import com.datastax.driver.mapping.annotations.Table;

@@ -1,4 +1,4 @@
-package cassandra;
+package com.test.casandra;
 
 import com.datastax.driver.core.Cluster;
 import com.datastax.driver.core.Host;
